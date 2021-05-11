@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "sng_arsenal:block/sng_block"
+    }
+  }
+}

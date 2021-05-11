@@ -1,0 +1,16 @@
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory
+license="All rights reserved"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+[[mods]] #mandatory
+modId="sng_arsenal" #mandatory
+version="1.16.5-forge-0.0.1.0" #mandatory
+displayName="SNG Arsenal" #mandatory
+#displayURL="https://www.youtube.com/channel/UCp4MTKDx9wSJd0BrzSwgHzQ" #optional
+#logoFile="sng_ingot.png" #optional
+#credits="Made by Star_SNG" #optional
+authors="Star_SNG" #optional
+description='''
+Star_SNG's first Minecraft mod made for version 1.16.5 using Forge, which adds SNG Arsenal into Minecraft.
+Currently only includes the SNG ingot, SNG ore, and block of SNG. More to be added in the future.
+'''
