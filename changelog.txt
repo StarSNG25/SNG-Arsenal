@@ -1,6 +1,8 @@
 Changelog
 =========
 1.16.5-forge-0.0.2.0
+- Changed mod description
+- Changed mod license
 - Set SNG Ingot as material
 - Added SNG Sword
 - Added SNG Pickaxe
