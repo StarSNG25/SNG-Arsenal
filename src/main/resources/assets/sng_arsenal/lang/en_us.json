@@ -2,6 +2,9 @@
   "item.sng_arsenal.sng_ingot": "SNG Ingot",
   "block.sng_arsenal.sng_ore": "SNG Ore",
   "block.sng_arsenal.sng_block": "Block of SNG",
+  "item.sng_arsenal.sng_sword": "SNG Sword",
   "item.sng_arsenal.sng_pickaxe": "SNG Pickaxe",
-  "item.sng_arsenal.sng_sword": "SNG Sword"
+  "item.sng_arsenal.sng_axe": "SNG Axe",
+  "item.sng_arsenal.sng_shovel": "SNG Shovel",
+  "item.sng_arsenal.sng_hoe": "SNG Hoe"
 }

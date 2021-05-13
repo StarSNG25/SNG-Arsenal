@@ -1,5 +1,11 @@
 Changelog
 =========
+1.16.5-forge-0.0.3.0
+- Made SNG Block as a beacon base block
+- Added SNG Axe
+- Added SNG Shovel
+- Added SNG Hoe
+
 1.16.5-forge-0.0.2.0
 - Changed mod description
 - Changed mod license

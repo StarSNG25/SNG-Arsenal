@@ -4,7 +4,7 @@ license="GPL v3.0"
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 [[mods]] #mandatory
 modId="sng_arsenal" #mandatory
-version="1.16.5-forge-0.0.2.0" #mandatory
+version="1.16.5-forge-0.0.3.0" #mandatory
 displayName="SNG Arsenal" #mandatory
 #displayURL="https://www.youtube.com/channel/UCp4MTKDx9wSJd0BrzSwgHzQ" #optional
 #logoFile="sng_ingot.png" #optional

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "sng_arsenal:item/sng_shovel"
+  }
+}

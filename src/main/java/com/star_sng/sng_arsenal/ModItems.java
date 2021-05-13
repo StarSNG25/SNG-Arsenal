@@ -1,14 +1,13 @@
 package com.star_sng.sng_arsenal;
 
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.HoeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemTier;
 import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
-import net.minecraft.item.ToolItem;
-import net.minecraft.tags.ITag;
-import net.minecraftforge.client.model.obj.MaterialLibrary.Material;
 import net.minecraftforge.fml.RegistryObject;
 
 public class ModItems {
@@ -42,6 +41,24 @@ public class ModItems {
 	
 	public static final RegistryObject<PickaxeItem> SNG_PICKAXE = RegistryHandler.ITEMS.register("sng_pickaxe", () ->
 		new PickaxeItem(ModItemTier.SNG, 1, -2.4f, (new Item.Properties())
+				.tab(ItemGroup.TAB_TOOLS)
+				)
+		);
+	
+	public static final RegistryObject<AxeItem> SNG_AXE = RegistryHandler.ITEMS.register("sng_axe", () ->
+		new AxeItem(ModItemTier.SNG, 5, -2.6f, (new Item.Properties())
+				.tab(ItemGroup.TAB_TOOLS)
+				)
+		);
+	
+	public static final RegistryObject<ShovelItem> SNG_SHOVEL = RegistryHandler.ITEMS.register("sng_shovel", () ->
+		new ShovelItem(ModItemTier.SNG, (float) 1.5, -2.6f, (new Item.Properties())
+				.tab(ItemGroup.TAB_TOOLS)
+				)
+		);
+	
+	public static final RegistryObject<HoeItem> SNG_HOE = RegistryHandler.ITEMS.register("sng_hoe", () ->
+		new HoeItem(ModItemTier.SNG, -6, 0.0f, (new Item.Properties())
 				.tab(ItemGroup.TAB_TOOLS)
 				)
 		);
