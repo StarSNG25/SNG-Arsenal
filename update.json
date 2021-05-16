@@ -1,12 +1,12 @@
 {
-  "homepage": "https://github.com/StarSNG25/SNG-Arsenal/releases",
+  "homepage": "https://github.com/StarSNG25/SNG-Arsenal/releases/tag/1.16.5-forge-0.0.3.0",
   "1.16.5": {
-    "0.0.3.0": "- Updated Forge to 36.1.17\n- Made SNG Block as a beacon base block\n- Added SNG Axe\n- Added SNG Shovel\n- Added SNG Hoe",
-    "0.0.2.0": "- Changed mod description\n- Changed mod license\n- Set SNG Ingot as material\n- Added SNG Sword\n- Added SNG Pickaxe\n- Changed material of SNG Ore (from metal to stone)\n- Changed strength of SNG Ore (leveled with other ores)\n- Changed harvestLevel of SNG Ore (from 2 to 3)\n- Changed strength of SNG Block (harder and more blast resistant)\n- Changed harvestLevel of SNG Block (from 2 to 3)",
-    "0.0.1.0": "First Build.\n- Added SNG Ingot\n- Added SNG Ore\n- Added SNG Block"
+    "0.0.3.0-forge": "- Updated Forge to 36.1.17\n- Made SNG Block as a beacon base block\n- Added SNG Axe\n- Added SNG Shovel\n- Added SNG Hoe",
+    "0.0.2.0-forge": "- Changed mod description\n- Changed mod license\n- Set SNG Ingot as material\n- Added SNG Sword\n- Added SNG Pickaxe\n- Changed material of SNG Ore (from metal to stone)\n- Changed strength of SNG Ore (leveled with other ores)\n- Changed harvestLevel of SNG Ore (from 2 to 3)\n- Changed strength of SNG Block (harder and more blast resistant)\n- Changed harvestLevel of SNG Block (from 2 to 3)",
+    "0.0.1.0-forge": "First Build.\n- Added SNG Ingot\n- Added SNG Ore\n- Added SNG Block"
   },
   "promos": {
-    "1.16.5-latest": "0.0.3.0",
-    "1.16.5-recommended": "0.0.3.0"
+    "1.16.5-latest": "0.0.3.0-forge",
+    "1.16.5-recommended": "0.0.3.0-forge"
   }
 }
