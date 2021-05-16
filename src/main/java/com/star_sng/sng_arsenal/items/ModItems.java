@@ -1,5 +1,12 @@
-package com.star_sng.sng_arsenal;
+package com.star_sng.sng_arsenal.items;
 
+import com.star_sng.sng_arsenal.armor.ModArmorItem;
+import com.star_sng.sng_arsenal.armor.ModArmorMaterial;
+import com.star_sng.sng_arsenal.blocks.ModBlocks;
+import com.star_sng.sng_arsenal.util.RegistryHandler;
+
+import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.item.ArmorItem;
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.HoeItem;
@@ -60,6 +67,30 @@ public class ModItems {
 	public static final RegistryObject<HoeItem> SNG_HOE = RegistryHandler.ITEMS.register("sng_hoe", () ->
 		new HoeItem(ModItemTier.SNG, -6, 0.0f, (new Item.Properties())
 				.tab(ItemGroup.TAB_TOOLS)
+				)
+		);
+	
+	public static final RegistryObject<ArmorItem> SNG_HELMET = RegistryHandler.ITEMS.register("sng_helmet", () ->
+		new ModArmorItem(ModArmorMaterial.SNG, EquipmentSlotType.HEAD, (new Item.Properties())
+				.tab(ItemGroup.TAB_COMBAT)
+				)
+		);
+	
+	public static final RegistryObject<ArmorItem> SNG_CHESTPLATE = RegistryHandler.ITEMS.register("sng_chestplate", () ->
+		new ModArmorItem(ModArmorMaterial.SNG, EquipmentSlotType.CHEST, (new Item.Properties())
+				.tab(ItemGroup.TAB_COMBAT)
+				)
+		);
+	
+	public static final RegistryObject<ArmorItem> SNG_LEGGINGS = RegistryHandler.ITEMS.register("sng_leggings", () ->
+		new ModArmorItem(ModArmorMaterial.SNG, EquipmentSlotType.LEGS, (new Item.Properties())
+				.tab(ItemGroup.TAB_COMBAT)
+				)
+		);
+	
+	public static final RegistryObject<ArmorItem> SNG_BOOTS = RegistryHandler.ITEMS.register("sng_boots", () ->
+		new ModArmorItem(ModArmorMaterial.SNG, EquipmentSlotType.FEET, (new Item.Properties())
+				.tab(ItemGroup.TAB_COMBAT)
 				)
 		);
 }

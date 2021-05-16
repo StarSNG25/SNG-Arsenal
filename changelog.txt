@@ -1,13 +1,24 @@
 Changelog
 =========
-1.16.5-forge-0.0.3.0
+1.16.5-0.0.4.0-forge
+- Updated Forge to 36.1.18
+- Fixed versioning (from mcver-api-modver to mcver-modver-api)
+- Fixed version tracking (from hardcode to softcode)
+- Updated mod homepage
+- Added update checker
+- Added issue tracker URL
+- Added mod icon
+- Added SNG Ingot as a beacon payment item
+- Added SNG Armor
+
+1.16.5-0.0.3.0-forge
 - Updated Forge to 36.1.17
 - Made SNG Block as a beacon base block
 - Added SNG Axe
 - Added SNG Shovel
 - Added SNG Hoe
 
-1.16.5-forge-0.0.2.0
+1.16.5-0.0.2.0-forge
 - Changed mod description
 - Changed mod license
 - Set SNG Ingot as material
@@ -19,7 +30,8 @@ Changelog
 - Changed strength of SNG Block (harder and more blast resistant)
 - Changed harvestLevel of SNG Block (from 2 to 3)
 
-1.16.5-forge-0.0.1.0
+1.16.5-0.0.1.0-forge
+First Build.
 - Added SNG Ingot
 - Added SNG Ore
 - Added SNG Block

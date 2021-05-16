@@ -1,13 +1,14 @@
 modLoader="javafml" #mandatory
 loaderVersion="[36,)" #mandatory
 license="GPL v3.0"
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+issueTrackerURL="https://github.com/StarSNG25/SNG-Arsenal" #optional
 [[mods]] #mandatory
 modId="sng_arsenal" #mandatory
-version="1.16.5-forge-0.0.3.0" #mandatory
+version="${file.jarVersion}" #mandatory
 displayName="SNG Arsenal" #mandatory
-#displayURL="https://www.youtube.com/channel/UCp4MTKDx9wSJd0BrzSwgHzQ" #optional
-#logoFile="sng_ingot.png" #optional
+updateJSONURL="https://raw.githubusercontent.com/StarSNG25/SNG-Arsenal/1.16.5-forge/update.json" #optional
+displayURL="https://starsng25.github.io/SNG-Arsenal/" #optional
+logoFile="mod_icon.png" #optional
 #credits="Made by Star_SNG" #optional
 authors="Star_SNG" #optional
 description='''

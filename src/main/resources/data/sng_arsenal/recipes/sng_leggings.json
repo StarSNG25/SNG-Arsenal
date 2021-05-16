@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "sng_arsenal:sng_ingot"
+    }
+  },
+  "result": {
+    "item": "sng_arsenal:sng_leggings"
+  }
+}

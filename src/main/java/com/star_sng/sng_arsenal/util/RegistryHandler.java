@@ -1,4 +1,8 @@
-package com.star_sng.sng_arsenal;
+package com.star_sng.sng_arsenal.util;
+
+import com.star_sng.sng_arsenal.SngArsenal;
+import com.star_sng.sng_arsenal.blocks.ModBlocks;
+import com.star_sng.sng_arsenal.items.ModItems;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;

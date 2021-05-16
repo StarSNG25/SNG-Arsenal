@@ -1,12 +1,13 @@
 {
-  "homepage": "https://github.com/StarSNG25/SNG-Arsenal/releases/tag/1.16.5-forge-0.0.3.0",
+  "homepage": "https://github.com/StarSNG25/SNG-Arsenal/releases/tag/1.16.5-0.0.4.0-forge",
   "1.16.5": {
+  	"1.16.5-0.0.4.0-forge": "- Updated Forge to 36.1.18\n- Fixed versioning (from mcver-api-modver to mcver-modver-api)\n- Fixed version tracking (from hardcode to softcode)\n- Updated mod homepage\n- Added update checker\n- Added issue tracker URL\n- Added mod icon\n- Added SNG Ingot as a beacon payment item\n- Added SNG Armor",
     "1.16.5-0.0.3.0-forge": "- Updated Forge to 36.1.17\n- Made SNG Block as a beacon base block\n- Added SNG Axe\n- Added SNG Shovel\n- Added SNG Hoe",
     "1.16.5-0.0.2.0-forge": "- Changed mod description\n- Changed mod license\n- Set SNG Ingot as material\n- Added SNG Sword\n- Added SNG Pickaxe\n- Changed material of SNG Ore (from metal to stone)\n- Changed strength of SNG Ore (leveled with other ores)\n- Changed harvestLevel of SNG Ore (from 2 to 3)\n- Changed strength of SNG Block (harder and more blast resistant)\n- Changed harvestLevel of SNG Block (from 2 to 3)",
     "1.16.5-0.0.1.0-forge": "First Build.\n- Added SNG Ingot\n- Added SNG Ore\n- Added SNG Block"
   },
   "promos": {
-    "1.16.5-latest": "1.16.5-0.0.3.0-forge",
-    "1.16.5-recommended": "1.16.5-0.0.3.0-forge"
+    "1.16.5-latest": "1.16.5-0.0.4.0-forge",
+    "1.16.5-recommended": "1.16.5-0.0.4.0-forge"
   }
 }

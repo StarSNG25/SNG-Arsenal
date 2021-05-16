@@ -6,5 +6,9 @@
   "item.sng_arsenal.sng_pickaxe": "SNG Pickaxe",
   "item.sng_arsenal.sng_axe": "SNG Axe",
   "item.sng_arsenal.sng_shovel": "SNG Shovel",
-  "item.sng_arsenal.sng_hoe": "SNG Hoe"
+  "item.sng_arsenal.sng_hoe": "SNG Hoe",
+  "item.sng_arsenal.sng_helmet": "SNG Helmet",
+  "item.sng_arsenal.sng_chestplate": "SNG Chestplate",
+  "item.sng_arsenal.sng_leggings": "SNG Leggings",
+  "item.sng_arsenal.sng_boots": "SNG Boots"
 }

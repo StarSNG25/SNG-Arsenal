@@ -1,4 +1,6 @@
-package com.star_sng.sng_arsenal;
+package com.star_sng.sng_arsenal.blocks;
+
+import com.star_sng.sng_arsenal.util.RegistryHandler;
 
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
