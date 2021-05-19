@@ -4,10 +4,12 @@ import java.util.function.Supplier;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
-public enum ModItemTier implements IItemTier {
-	SNG(5, 3500, 12.0f, 6.0f, 20, () -> {
+public enum ModItemTier implements IItemTier
+{
+	SNG(5, 3500, 12.0f, 6.0f, 20, () ->
+	{
 		return Ingredient.of(ModItems.SNG_INGOT.get());
-		}
+	}
 	);
 	
 	private final int level;
@@ -28,32 +30,38 @@ public enum ModItemTier implements IItemTier {
 	}
 	
 	@Override
-	public int getUses() {
+	public int getUses()
+	{
 		return this.uses;
 	}
 
 	@Override
-	public float getSpeed() {
+	public float getSpeed()
+	{
 		return this.speed;
 	}
 
 	@Override
-	public float getAttackDamageBonus() {
+	public float getAttackDamageBonus()
+	{
 		return this.damage;
 	}
 
 	@Override
-	public int getLevel() {
+	public int getLevel()
+	{
 		return this.level;
 	}
 
 	@Override
-	public int getEnchantmentValue() {
+	public int getEnchantmentValue()
+	{
 		return this.enchantmentValue;
 	}
 
 	@Override
-	public Ingredient getRepairIngredient() {
+	public Ingredient getRepairIngredient()
+	{
 		return this.repairIngredient.get();
 	}
 	

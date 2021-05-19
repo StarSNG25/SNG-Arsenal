@@ -1,5 +1,9 @@
 Changelog
 =========
+1.16.5-0.0.4.1-forge
+- Updated Forge to 36.1.23
+- Fixed mod icon not showing
+
 1.16.5-0.0.4.0-forge
 - Updated Forge to 36.1.18
 - Fixed versioning (from mcver-api-modver to mcver-modver-api)
@@ -31,7 +35,7 @@ Changelog
 - Changed harvestLevel of SNG Block (from 2 to 3)
 
 1.16.5-0.0.1.0-forge
-First Build.
+First build.
 - Added SNG Ingot
 - Added SNG Ore
 - Added SNG Block

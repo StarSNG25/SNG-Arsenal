@@ -1,19 +1,20 @@
 package com.star_sng.sng_arsenal.armor;
 
 import java.util.function.Supplier;
-
 import com.star_sng.sng_arsenal.items.ModItems;
-
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.SoundEvents;
 
-public enum ModArmorMaterial implements IArmorMaterial {
-	SNG("sng", 50, new int[]{5, 8, 10, 5}, 20, SoundEvents.ARMOR_EQUIP_IRON, 5.0f, 0.3f, () -> {
+public enum ModArmorMaterial implements IArmorMaterial
+{
+	SNG("sng", 50, new int[]{5, 8, 10, 5}, 20, SoundEvents.ARMOR_EQUIP_IRON, 5.0f, 0.3f, () ->
+	{
 		return Ingredient.of(ModItems.SNG_INGOT.get());
-	});
+	}
+	);
 	
 	private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
 	private final String name;
@@ -38,42 +39,50 @@ public enum ModArmorMaterial implements IArmorMaterial {
 	}
 	
 	@Override
-	public int getDurabilityForSlot(EquipmentSlotType p_200896_1_) {
+	public int getDurabilityForSlot(EquipmentSlotType p_200896_1_)
+	{
 		return HEALTH_PER_SLOT[p_200896_1_.getIndex()] * this.durabilityMultiplier;
 	}
 
 	@Override
-	public int getDefenseForSlot(EquipmentSlotType p_200902_1_) {
+	public int getDefenseForSlot(EquipmentSlotType p_200902_1_)
+	{
 		return this.slotProtections[p_200902_1_.getIndex()];
 	}
 
 	@Override
-	public int getEnchantmentValue() {
+	public int getEnchantmentValue()
+	{
 		return this.enchantmentValue;
 	}
 
 	@Override
-	public SoundEvent getEquipSound() {
+	public SoundEvent getEquipSound()
+	{
 		return this.sound;
 	}
 
 	@Override
-	public Ingredient getRepairIngredient() {
+	public Ingredient getRepairIngredient()
+	{
 		return this.repairIngredient.get();
 	}
 
 	@Override
-	public String getName() {
+	public String getName()
+	{
 		return this.name;
 	}
 
 	@Override
-	public float getToughness() {
+	public float getToughness()
+	{
 		return this.toughness;
 	}
 
 	@Override
-	public float getKnockbackResistance() {
+	public float getKnockbackResistance()
+	{
 		return this.knockbackResistance;
 	}
 }

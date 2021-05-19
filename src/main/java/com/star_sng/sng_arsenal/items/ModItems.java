@@ -4,7 +4,6 @@ import com.star_sng.sng_arsenal.armor.ModArmorItem;
 import com.star_sng.sng_arsenal.armor.ModArmorMaterial;
 import com.star_sng.sng_arsenal.blocks.ModBlocks;
 import com.star_sng.sng_arsenal.util.RegistryHandler;
-
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.AxeItem;
@@ -17,7 +16,8 @@ import net.minecraft.item.ShovelItem;
 import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 
-public class ModItems {
+public class ModItems
+{
 	public static void init() {}
 	
 	public static final RegistryObject<Item> SNG_INGOT = RegistryHandler.ITEMS.register("sng_ingot", () ->
@@ -27,16 +27,14 @@ public class ModItems {
 		);
 	
 	public static final RegistryObject<Item> SNG_ORE_ITEM = RegistryHandler.ITEMS.register("sng_ore", () ->
-		new BlockItem(
-				ModBlocks.SNG_ORE.get(),
-				new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)
+		new BlockItem(ModBlocks.SNG_ORE.get(), new Item.Properties()
+				.tab(ItemGroup.TAB_BUILDING_BLOCKS)
 				)
 		);
 	
 	public static final RegistryObject<Item> SNG_BLOCK_ITEM = RegistryHandler.ITEMS.register("sng_block", () ->
-		new BlockItem(
-				ModBlocks.SNG_BLOCK.get(),
-				new Item.Properties().tab(ItemGroup.TAB_BUILDING_BLOCKS)
+		new BlockItem(ModBlocks.SNG_BLOCK.get(), new Item.Properties()
+				.tab(ItemGroup.TAB_BUILDING_BLOCKS)
 				)
 		);
 	

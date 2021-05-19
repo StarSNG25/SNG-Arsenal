@@ -10,7 +10,8 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 @SuppressWarnings("rawtypes")
 @OnlyIn(Dist.CLIENT)
-public class ModArmorModel extends BipedModel {
+public class ModArmorModel extends BipedModel
+{
 	public ModelRenderer RightSleeve;
 	public ModelRenderer RightLegging;
 	public ModelRenderer RightBoot;
@@ -20,7 +21,8 @@ public class ModArmorModel extends BipedModel {
 	public ModelRenderer LeftLegging;
 	public ModelRenderer LeftBoot;
 	
-	public ModArmorModel(float modelSize) {
+	public ModArmorModel(float modelSize)
+	{
 		super(modelSize);
 		this.texWidth = 64;
 		this.texHeight = 32;

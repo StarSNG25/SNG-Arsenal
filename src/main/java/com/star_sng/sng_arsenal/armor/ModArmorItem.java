@@ -8,8 +8,10 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.ItemStack;
 
-public class ModArmorItem extends ArmorItem {
-	public ModArmorItem(IArmorMaterial armorMaterial, EquipmentSlotType sllotType, Properties properties) {
+public class ModArmorItem extends ArmorItem
+{
+	public ModArmorItem(IArmorMaterial armorMaterial, EquipmentSlotType sllotType, Properties properties)
+	{
 		super(armorMaterial, sllotType, properties);
 	}
 
