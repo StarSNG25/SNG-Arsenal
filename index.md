@@ -4,7 +4,7 @@ A version for [Fabric](https://fabricmc.net/) might be available in the future, 
 
 # Download
 
-Download the latest version of the mod [here](https://github.com/StarSNG25/SNG-Arsenal/releases/tag/1.16.5-0.0.4.0-forge).
+Download the latest version of the mod [here](https://github.com/StarSNG25/SNG-Arsenal/releases/tag/1.16.5-0.0.4.1-forge).
 
 # YouTube
 
