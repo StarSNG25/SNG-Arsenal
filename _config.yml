@@ -1,1 +1,4 @@
+title: SNG Arsenal
+logo: /assets/img/mod_icon.png
+description: My first Minecraft mod made using Forge API. Intended for getting myself into Minecraft modding. Adds SNG Arsenal into Minecraft, including new tools, armor, and more.
 theme: jekyll-theme-minimal
