@@ -21,6 +21,5 @@ public class RegistryHandler
 		
 		ModItems.init();
 		ModBlocks.init();
-//		OreGeneration.registerOres();
 	}
 }

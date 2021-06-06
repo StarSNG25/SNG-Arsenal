@@ -1,5 +1,10 @@
 Changelog
 =========
+1.16.5-1.0.0.0-forge
+First release.
+- Updated Forge to 36.1.25
+- Added ore generation for SNG Ore (starts on y = 16)
+
 1.16.5-0.0.4.1-forge
 - Updated Forge to 36.1.23
 - Fixed mod icon not showing
