@@ -1,5 +1,9 @@
 Changelog
 =========
+1.16.5-1.0.0.1-forge
+- Updated Forge to 36.1.65
+- Fixed armor rendering (leggings were shown on top of chestplate and enchanted armor was incorrectly rendered)
+
 1.16.5-1.0.0.0-forge
 First release.
 - Updated Forge to 36.1.25
