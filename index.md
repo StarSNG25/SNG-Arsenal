@@ -8,4 +8,4 @@ Download the latest version of the mod [here](https://github.com/StarSNG25/SNG-A
 
 # YouTube
 
-Check out my YouTube channel [here](https://www.youtube.com/channel/UCp4MTKDx9wSJd0BrzSwgHzQ).
+Check out my YouTube channel [here](https://www.youtube.com/c/StarSNG).
