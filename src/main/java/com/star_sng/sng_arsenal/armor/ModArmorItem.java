@@ -8,9 +8,9 @@ import net.minecraft.item.ItemStack;
 
 public class ModArmorItem extends ArmorItem
 {
-	public ModArmorItem(IArmorMaterial armorMaterial, EquipmentSlotType sllotType, Properties properties)
+	public ModArmorItem(IArmorMaterial armorMaterial, EquipmentSlotType slotType, Properties properties)
 	{
-		super(armorMaterial, sllotType, properties);
+		super(armorMaterial, slotType, properties);
 	}
 	
 	public String getArmorTexture(ItemStack itemStack, Entity entity, EquipmentSlotType slotType, String type)
