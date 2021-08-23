@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "sng_arsenal:sng_ingot"
+    "sng_arsenal:sng_ingot",
+    "sng_arsenal:condensed_sng_ingot"
   ]
 }
