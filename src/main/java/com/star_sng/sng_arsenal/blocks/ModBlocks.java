@@ -21,7 +21,7 @@ public class ModBlocks
 				.harvestTool(ToolType.PICKAXE)
 				.requiresCorrectToolForDrops()
 				)
-		);
+	);
 	
 	public static final RegistryObject<Block> SNG_BLOCK = RegistryHandler.BLOCKS.register("sng_block", () ->
 		new Block(AbstractBlock.Properties
@@ -32,5 +32,16 @@ public class ModBlocks
 				.harvestTool(ToolType.PICKAXE)
 				.requiresCorrectToolForDrops()
 				)
-		);
+	);
+	
+	public static final RegistryObject<Block> CONDENSED_SNG_BLOCK = RegistryHandler.BLOCKS.register("condensed_sng_block", () ->
+		new Block(AbstractBlock.Properties
+				.of(Material.METAL)
+				.strength(15.0f, 22.5f)
+				.sound(SoundType.METAL)
+				.harvestLevel(4)
+				.harvestTool(ToolType.PICKAXE)
+				.requiresCorrectToolForDrops()
+				)
+	);
 }
