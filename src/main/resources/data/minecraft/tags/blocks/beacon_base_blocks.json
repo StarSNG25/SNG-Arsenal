@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "sng_arsenal:sng_block"
+    "sng_arsenal:sng_block",
+    "sng_arsenal:condensed_sng_block"
   ]
 }
