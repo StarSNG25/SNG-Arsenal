@@ -14,6 +14,11 @@ public enum ModArmorMaterial implements IArmorMaterial
 	{
 		return Ingredient.of(ModItems.SNG_INGOT.get());
 	}
+	),
+	CONDENSED_SNG("condensed_sng", 75, new int[]{7, 10, 12, 7}, 20, SoundEvents.ARMOR_EQUIP_IRON, 7.0f, 0.5f, () ->
+	{
+		return Ingredient.of(ModItems.CONDENSED_SNG_INGOT.get());
+	}
 	);
 	
 	private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
