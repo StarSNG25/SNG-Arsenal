@@ -13,35 +13,35 @@ public class ModBlocks
 	public static void init() {}
 	
 	public static final RegistryObject<Block> SNG_ORE = RegistryHandler.BLOCKS.register("sng_ore", () ->
-		new Block(AbstractBlock.Properties
-				.of(Material.STONE)
-				.strength(3.0f, 3.0f)
-				.sound(SoundType.STONE)
-				.harvestLevel(3)
-				.harvestTool(ToolType.PICKAXE)
-				.requiresCorrectToolForDrops()
-				)
-	);
+			new Block(AbstractBlock.Properties
+					.of(Material.STONE)
+					.strength(3.0f, 3.0f)
+					.sound(SoundType.STONE)
+					.harvestLevel(3)
+					.harvestTool(ToolType.PICKAXE)
+					.requiresCorrectToolForDrops()
+					)
+			);
 	
 	public static final RegistryObject<Block> SNG_BLOCK = RegistryHandler.BLOCKS.register("sng_block", () ->
-		new Block(AbstractBlock.Properties
-				.of(Material.METAL)
-				.strength(10.0f, 15.0f)
-				.sound(SoundType.METAL)
-				.harvestLevel(3)
-				.harvestTool(ToolType.PICKAXE)
-				.requiresCorrectToolForDrops()
-				)
-	);
+			new Block(AbstractBlock.Properties
+					.of(Material.METAL)
+					.strength(10.0f, 15.0f)
+					.sound(SoundType.METAL)
+					.harvestLevel(3)
+					.harvestTool(ToolType.PICKAXE)
+					.requiresCorrectToolForDrops()
+					)
+			);
 	
 	public static final RegistryObject<Block> CONDENSED_SNG_BLOCK = RegistryHandler.BLOCKS.register("condensed_sng_block", () ->
-		new Block(AbstractBlock.Properties
-				.of(Material.METAL)
-				.strength(15.0f, 22.5f)
-				.sound(SoundType.METAL)
-				.harvestLevel(4)
-				.harvestTool(ToolType.PICKAXE)
-				.requiresCorrectToolForDrops()
-				)
-	);
+			new Block(AbstractBlock.Properties
+					.of(Material.METAL)
+					.strength(15.0f, 22.5f)
+					.sound(SoundType.METAL)
+					.harvestLevel(4)
+					.harvestTool(ToolType.PICKAXE)
+					.requiresCorrectToolForDrops()
+					)
+			);
 }
