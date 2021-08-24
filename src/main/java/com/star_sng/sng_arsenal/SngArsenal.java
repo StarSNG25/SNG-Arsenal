@@ -52,6 +52,7 @@ public class SngArsenal
 		MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, OreGeneration::generateOres);
 	}
 	
+	@SuppressWarnings("resource")
 	private void doClientStuff(final FMLClientSetupEvent event)
 	{
 		// do something that can only be done on the client
