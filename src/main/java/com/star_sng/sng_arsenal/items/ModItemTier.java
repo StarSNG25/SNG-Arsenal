@@ -11,7 +11,7 @@ public enum ModItemTier implements IItemTier
 		return Ingredient.of(ModItems.SNG_INGOT.get());
 	}
 	),
-	SNG_CONDENSED(6, 7000, 18.0f, 9.0f, 20, () ->
+	CONDENSED_SNG(6, 7000, 18.0f, 9.0f, 20, () ->
 	{
 		return Ingredient.of(ModItems.CONDENSED_SNG_INGOT.get());
 	}
