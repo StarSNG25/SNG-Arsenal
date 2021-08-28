@@ -9,6 +9,7 @@
 		"item.sng_arsenal.sng_axe": "SNG Axe",
 		"item.sng_arsenal.sng_shovel": "SNG Shovel",
 		"item.sng_arsenal.sng_hoe": "SNG Hoe",
+		"item.sng_arsenal.condensed_sng_sword": "Condensed SNG Sword",
 		"item.sng_arsenal.flint_and_sng": "Flint and SNG",
 		"item.sng_arsenal.flint_and_condensed_sng": "Flint and Condensed SNG",
 		//Armor
@@ -16,6 +17,10 @@
 		"item.sng_arsenal.sng_chestplate": "SNG Chestplate",
 		"item.sng_arsenal.sng_leggings": "SNG Leggings",
 		"item.sng_arsenal.sng_boots": "SNG Boots",
+		"item.sng_arsenal.condensed_sng_helmet": "Condensed SNG Helmet",
+		"item.sng_arsenal.condensed_sng_chestplate": "Condensed SNG Chestplate",
+		"item.sng_arsenal.condensed_sng_leggings": "Condensed SNG Leggings",
+		"item.sng_arsenal.condensed_sng_boots": "Condensed SNG Boots",
 		
 	//Blocks
 	"block.sng_arsenal.sng_ore": "SNG Ore",
