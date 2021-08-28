@@ -84,6 +84,12 @@ public class ModItems
 					)
 			);
 	
+	public static final RegistryObject<SwordItem> CONDENSED_SNG_SWORD = RegistryHandler.ITEMS.register("condensed_sng_sword", () ->
+			new SwordItem(ModItemTier.CONDENSED_SNG, 5, -2.0f, (new Item.Properties())
+					.tab(ItemGroup.TAB_COMBAT)
+					)
+			);
+	
 	public static final RegistryObject<FlintAndSteelItem> FLINT_AND_SNG = RegistryHandler.ITEMS.register("flint_and_sng", () ->
 			new FlintAndSteelItem((new Item.Properties())
 					.durability(256)
@@ -119,6 +125,30 @@ public class ModItems
 	
 	public static final RegistryObject<ArmorItem> SNG_BOOTS = RegistryHandler.ITEMS.register("sng_boots", () ->
 			new ModArmorItem(ModArmorMaterial.SNG, EquipmentSlotType.FEET, (new Item.Properties())
+					.tab(ItemGroup.TAB_COMBAT)
+					)
+			);
+	
+	public static final RegistryObject<ArmorItem> CONDENSED_SNG_HELMET = RegistryHandler.ITEMS.register("condensed_sng_helmet", () ->
+			new ModArmorItem(ModArmorMaterial.CONDENSED_SNG, EquipmentSlotType.HEAD, (new Item.Properties())
+					.tab(ItemGroup.TAB_COMBAT)
+					)
+			);
+	
+	public static final RegistryObject<ArmorItem> CONDENSED_SNG_CHESTPLATE = RegistryHandler.ITEMS.register("condensed_sng_chestplate", () ->
+			new ModArmorItem(ModArmorMaterial.CONDENSED_SNG, EquipmentSlotType.CHEST, (new Item.Properties())
+					.tab(ItemGroup.TAB_COMBAT)
+					)
+			);
+	
+	public static final RegistryObject<ArmorItem> CONDENSED_SNG_LEGGINGS = RegistryHandler.ITEMS.register("condensed_sng_leggings", () ->
+			new ModArmorItem(ModArmorMaterial.CONDENSED_SNG, EquipmentSlotType.LEGS, (new Item.Properties())
+					.tab(ItemGroup.TAB_COMBAT)
+					)
+			);
+	
+	public static final RegistryObject<ArmorItem> CONDENSED_SNG_BOOTS = RegistryHandler.ITEMS.register("condensed_sng_boots", () ->
+			new ModArmorItem(ModArmorMaterial.CONDENSED_SNG, EquipmentSlotType.FEET, (new Item.Properties())
 					.tab(ItemGroup.TAB_COMBAT)
 					)
 			);
