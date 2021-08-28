@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "sng_arsenal:item/condensed_sng_boots"
+  }
+}
