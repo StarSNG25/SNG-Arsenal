@@ -1,6 +1,6 @@
-package com.star_sng.sng_arsenal.blocks;
+package com.starsng.sng_arsenal.blocks;
 
-import com.star_sng.sng_arsenal.util.RegistryHandler;
+import com.starsng.sng_arsenal.util.RegistryHandler;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -10,8 +10,6 @@ import net.minecraftforge.fml.RegistryObject;
 
 public class ModBlocks
 {
-	public static void init() {}
-	
 	public static final RegistryObject<Block> SNG_ORE = RegistryHandler.BLOCKS.register("sng_ore", () ->
 			new Block(AbstractBlock.Properties
 					.of(Material.STONE)

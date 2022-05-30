@@ -1,8 +1,8 @@
-package com.star_sng.sng_arsenal.util;
+package com.starsng.sng_arsenal.util;
 
-import com.star_sng.sng_arsenal.SngArsenal;
-import com.star_sng.sng_arsenal.blocks.ModBlocks;
-import com.star_sng.sng_arsenal.items.ModItems;
+import com.starsng.sng_arsenal.SngArsenal;
+import com.starsng.sng_arsenal.blocks.ModBlocks;
+import com.starsng.sng_arsenal.items.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -14,12 +14,12 @@ public class RegistryHandler
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SngArsenal.MODID);
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, SngArsenal.MODID);
 	
-	public static void init()
+	public RegistryHandler()
 	{
 		ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 		BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
 		
-		ModItems.init();
-		ModBlocks.init();
+		new ModItems();
+		new ModBlocks();
 	}
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WoW",
+    "WWW",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "o": {
+      "item": "sng_arsenal:condensed_sng_ingot"
+    }
+  },
+  "result": {
+    "item": "sng_arsenal:condensed_sng_shield"
+  }
+}

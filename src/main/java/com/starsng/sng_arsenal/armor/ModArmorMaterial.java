@@ -1,7 +1,7 @@
-package com.star_sng.sng_arsenal.armor;
+package com.starsng.sng_arsenal.armor;
 
 import java.util.function.Supplier;
-import com.star_sng.sng_arsenal.items.ModItems;
+import com.starsng.sng_arsenal.items.ModItems;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
@@ -13,13 +13,11 @@ public enum ModArmorMaterial implements IArmorMaterial
 	SNG("sng", 50, new int[]{5, 8, 10, 5}, 20, SoundEvents.ARMOR_EQUIP_IRON, 5.0f, 0.3f, () ->
 	{
 		return Ingredient.of(ModItems.SNG_INGOT.get());
-	}
-	),
-	CONDENSED_SNG("condensed_sng", 100, new int[]{7, 10, 12, 7}, 20, SoundEvents.ARMOR_EQUIP_IRON, 7.0f, 0.5f, () ->
+	}),
+	CONDENSED_SNG("condensed_sng", 100, new int[]{10, 16, 20, 10}, 20, SoundEvents.ARMOR_EQUIP_IRON, 10.0f, 0.6f, () ->
 	{
 		return Ingredient.of(ModItems.CONDENSED_SNG_INGOT.get());
-	}
-	);
+	});
 	
 	private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
 	private final String name;

@@ -1,4 +1,4 @@
-package com.star_sng.sng_arsenal.armor;
+package com.starsng.sng_arsenal.armor;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.inventory.EquipmentSlotType;

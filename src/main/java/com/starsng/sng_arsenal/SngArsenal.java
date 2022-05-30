@@ -1,4 +1,4 @@
-package com.star_sng.sng_arsenal;
+package com.starsng.sng_arsenal;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -16,8 +16,8 @@ import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import com.star_sng.sng_arsenal.util.RegistryHandler;
-import com.star_sng.sng_arsenal.world.OreGeneration;
+import com.starsng.sng_arsenal.util.RegistryHandler;
+import com.starsng.sng_arsenal.world.OreGeneration;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -41,7 +41,7 @@ public class SngArsenal
 		
 		// Register ourselves for server and other game events we are interested in
 		MinecraftForge.EVENT_BUS.register(this);
-		RegistryHandler.init();
+		new RegistryHandler();
 	}
 	
 	private void setup(final FMLCommonSetupEvent event)

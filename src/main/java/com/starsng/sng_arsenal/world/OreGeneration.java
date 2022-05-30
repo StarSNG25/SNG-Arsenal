@@ -1,6 +1,6 @@
-package com.star_sng.sng_arsenal.world;
+package com.starsng.sng_arsenal.world;
 
-import com.star_sng.sng_arsenal.blocks.ModBlocks;
+import com.starsng.sng_arsenal.blocks.ModBlocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.gen.GenerationStage;

@@ -1,4 +1,4 @@
-package com.star_sng.sng_arsenal.items;
+package com.starsng.sng_arsenal.items;
 
 import java.util.function.Supplier;
 import net.minecraft.item.IItemTier;
@@ -9,13 +9,11 @@ public enum ModItemTier implements IItemTier
 	SNG(5, 3500, 12.0f, 6.0f, 20, () ->
 	{
 		return Ingredient.of(ModItems.SNG_INGOT.get());
-	}
-	),
-	CONDENSED_SNG(6, 7000, 18.0f, 9.0f, 20, () ->
+	}),
+	CONDENSED_SNG(6, 7000, 24.0f, 12.0f, 20, () ->
 	{
 		return Ingredient.of(ModItems.CONDENSED_SNG_INGOT.get());
-	}
-	);
+	});
 	
 	private final int level;
 	private final int uses;
