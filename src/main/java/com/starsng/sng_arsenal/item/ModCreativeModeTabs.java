@@ -22,11 +22,11 @@ public class ModCreativeModeTabs
 						{
 							//Ingredients
 							populator.accept(ModItems.RAW_SNG.get());
-				        	populator.accept(ModItems.SNG_INGOT.get());
-				        	populator.accept(ModItems.CONDENSED_SNG_INGOT.get());
-				        	
-				        	//Natural Blocks
-				        	populator.accept(ModItems.SNG_ORE_ITEM.get());
+							populator.accept(ModItems.SNG_INGOT.get());
+							populator.accept(ModItems.CONDENSED_SNG_INGOT.get());
+							
+							//Natural Blocks
+							populator.accept(ModItems.SNG_ORE_ITEM.get());
 							populator.accept(ModItems.DEEPSLATE_SNG_ORE_ITEM.get());
 							
 							//Building Blocks
