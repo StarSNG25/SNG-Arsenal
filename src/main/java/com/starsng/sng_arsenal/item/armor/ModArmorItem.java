@@ -8,24 +8,22 @@ import net.minecraft.world.item.ItemStack;
 
 public class ModArmorItem extends ArmorItem
 {
-	public ModArmorItem(ArmorMaterial armorMaterial, EquipmentSlot equipmentSlot, Properties properties)
+	public ModArmorItem(ArmorMaterial material, EquipmentSlot slot, Properties properties)
 	{
-		super(armorMaterial, equipmentSlot, properties);
+		super(material, slot, properties);
 	}
 	
-	public String getArmorTexture(ItemStack itemStack, Entity entity, EquipmentSlot equipmentSlot, String type)
+	@Override
+	public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type)
 	{
-		String dir = "sng_arsenal:textures/models/armor/";
+		String dir = "sng_arsenal:textures/models/armor/" + material.getName();
 		
-		if (material == ModArmorMaterials.SNG)
-			if (equipmentSlot == EquipmentSlot.LEGS)
-				return dir + "sng_layer_2.png";
-			else
-				return dir + "sng_layer_1.png";
-		else //if (material == ModArmorMaterial.CONDENSED_SNG)
-			if (equipmentSlot == EquipmentSlot.LEGS)
-				return dir + "condensed_sng_layer_2.png";
-			else
-				return dir + "condensed_sng_layer_1.png";
+		switch (slot)
+		{
+			case LEGS:
+				return dir + "_layer_2.png";
+			default:
+				return dir + "_layer_1.png";
+		}
 	}
 }
