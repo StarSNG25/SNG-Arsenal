@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.2,
+  "group": "sng_ingot",
+  "ingredient": {
+    "item": "sng_arsenal:raw_sng"
+  },
+  "result": "sng_arsenal:sng_ingot"
+}

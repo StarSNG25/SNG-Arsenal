@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "sng_arsenal:sng_ore",
+    "sng_arsenal:deepslate_sng_ore",
+    "sng_arsenal:raw_sng_block",
+    "sng_arsenal:sng_block"
+  ]
+}

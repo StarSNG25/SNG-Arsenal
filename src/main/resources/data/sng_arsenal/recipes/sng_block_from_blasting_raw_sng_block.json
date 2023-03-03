@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "building",
+  "cookingtime": 900,
+  "experience": 10.8,
+  "group": "sng_block",
+  "ingredient": {
+    "item": "sng_arsenal:raw_sng_block"
+  },
+  "result": "sng_arsenal:sng_block"
+}

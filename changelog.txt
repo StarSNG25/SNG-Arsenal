@@ -1,0 +1,69 @@
+Changelog
+=========
+1.19.3-2.0.0.0-forge
+> Updated to Minecraft 1.19.3
++ Added Deepslate SNG Ore
++ Added Raw SNG
++ Added Raw SNG Block (can be smelted/blasted directly into SNG Block but takes as long as smelting/blasting 9 Raw SNGs normally)
++ Added Flint and SNG (quadruple the durability of Flint and Steel, crafted like Flint and Steel but replace Iron Ingot with SNG Ingot)
++ Added SNG Shears (double the durability of Shears, crafted like Shears but with SNG Ingot)
++ Added Condensed SNG things (fire resistant, same enchantment value as Gold)
+  + Condensed SNG Ingot is crafted using 8 SNG Ingots in an O-shape
+  + Condensed SNG Block is crafted by using either 9 Condensed SNG Ingots or 8 SNG Blocks in an O-shape
+  + Condensed SNG Block is immune to Wither
+  + Added Flint and Condensed SNG (double the durability of Flint and SNG)
+  + Added Condensed SNG Shears (double the durability of SNG Shears)
+> Mining SNG Ore now drops Raw SNG instead of itself
+> Changed SNG Block's explosion resistance from 15.0f to 20.0f (TNT proof)
+> Changed XP gained from smelting/blasting (Deepslate) SNG Ore from 1.0 to 1.2
+> Changed SNG Ore texture to match ore texture update in Minecraft 1.17
+> Changed SNG Ore placement to blabla due to ore placement/distribution update in Minecraft 1.18 //TODO
+
+1.16.5-1.0.0.1-forge
+> Updated Forge to 36.1.65
+> Fixed armor rendering (leggings were shown on top of chestplate and enchanted armor was incorrectly rendered)
+
+1.16.5-1.0.0.0-forge
+First release.
+> Updated Forge to 36.1.25
++ Added ore generation for SNG Ore (starts on y = 16)
+
+1.16.5-0.0.4.1-forge
+> Updated Forge to 36.1.23
+> Fixed mod icon not showing
+
+1.16.5-0.0.4.0-forge
+> Updated Forge to 36.1.18
+> Fixed versioning (from mcver-api-modver to mcver-modver-api)
+> Fixed version tracking (from hardcode to softcode)
+> Updated mod homepage
++ Added update checker
++ Added issue tracker URL
++ Added mod icon
++ Added SNG Ingot as a beacon payment item
++ Added SNG Armor
+
+1.16.5-0.0.3.0-forge
+> Updated Forge to 36.1.17
++ Made SNG Block as a beacon base block
++ Added SNG Axe
++ Added SNG Shovel
++ Added SNG Hoe
+
+1.16.5-0.0.2.0-forge
+> Changed mod description
+> Changed mod license
++ Set SNG Ingot as material
++ Added SNG Sword
++ Added SNG Pickaxe
+> Changed material of SNG Ore (from metal to stone)
+> Changed strength of SNG Ore (leveled with other ores)
+> Changed harvestLevel of SNG Ore (from 2 to 3)
+> Changed strength of SNG Block (harder and more blast resistant)
+> Changed harvestLevel of SNG Block (from 2 to 3)
+
+1.16.5-0.0.1.0-forge
+First build.
++ Added SNG Ingot
++ Added SNG Ore
++ Added SNG Block

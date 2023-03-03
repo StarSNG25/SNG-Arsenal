@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "sng_arsenal:ore_sng",
+  "step": "underground_ores"
+}

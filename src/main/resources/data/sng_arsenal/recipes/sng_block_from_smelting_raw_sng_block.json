@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "building",
+  "cookingtime": 1800,
+  "experience": 10.8,
+  "group": "sng_block",
+  "ingredient": {
+    "item": "sng_arsenal:raw_sng_block"
+  },
+  "result": "sng_arsenal:sng_block"
+}

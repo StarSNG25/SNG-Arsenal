@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "condensed_sng_ingot",
+  "key": {
+    "#": {
+      "item": "sng_arsenal:sng_ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "sng_arsenal:condensed_sng_ingot"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.2,
+  "group": "sng_ingot",
+  "ingredient": {
+    "item": "sng_arsenal:deepslate_sng_ore"
+  },
+  "result": "sng_arsenal:sng_ingot"
+}

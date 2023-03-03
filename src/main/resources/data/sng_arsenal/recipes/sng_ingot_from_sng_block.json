@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "sng_ingot",
+  "ingredients": [
+    {
+      "item": "sng_arsenal:sng_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "sng_arsenal:sng_ingot"
+  }
+}
