@@ -26,7 +26,7 @@ public class ModItems
 	private static final Item.Properties condensedSngItemProperties = new Item.Properties().fireResistant();
 	private static final Item.Properties durabilityItemProperties = new Item.Properties().durability(256); //Durability of Flint and SNG
 	
-	//Ingots
+	//Ingredients
 	public static final RegistryObject<Item> RAW_SNG = RegistryHandler.ITEMS.register("raw_sng", () ->
 			new Item(sngItemProperties));
 	public static final RegistryObject<Item> SNG_INGOT = RegistryHandler.ITEMS.register("sng_ingot", () ->
@@ -102,50 +102,7 @@ public class ModItems
 	}
 	
 	private void addCreative(CreativeModeTabEvent.BuildContents event)
-    {
-		if (event.getTab() == ModCreativeModeTabs.SNG_ARSENAL)
-		{
-			//Ingredients
-			event.accept(RAW_SNG);
-        	event.accept(SNG_INGOT);
-        	event.accept(CONDENSED_SNG_INGOT);
-        	
-        	//Natural Blocks
-        	event.accept(SNG_ORE_ITEM);
-			event.accept(DEEPSLATE_SNG_ORE_ITEM);
-			
-			//Building Blocks
-			event.accept(RAW_SNG_BLOCK_ITEM);
-			event.accept(SNG_BLOCK_ITEM);
-			event.accept(CONDENSED_SNG_BLOCK_ITEM);
-			
-			//Combat
-			event.accept(SNG_SWORD);
-			event.accept(SNG_HELMET);
-			event.accept(SNG_CHESTPLATE);
-			event.accept(SNG_LEGGINGS);
-			event.accept(SNG_BOOTS);
-			event.accept(CONDENSED_SNG_SWORD);
-			event.accept(CONDENSED_SNG_HELMET);
-			event.accept(CONDENSED_SNG_CHESTPLATE);
-			event.accept(CONDENSED_SNG_LEGGINGS);
-			event.accept(CONDENSED_SNG_BOOTS);
-			
-			//Tools and Utilities
-			event.accept(SNG_PICKAXE);
-			event.accept(SNG_AXE);
-			event.accept(SNG_SHOVEL);
-			event.accept(SNG_HOE);
-			event.accept(FLINT_AND_SNG);
-			event.accept(SNG_SHEARS);
-			event.accept(CONDENSED_SNG_PICKAXE);
-			event.accept(CONDENSED_SNG_AXE);
-			event.accept(CONDENSED_SNG_SHOVEL);
-			event.accept(CONDENSED_SNG_HOE);
-			event.accept(FLINT_AND_CONDENSED_SNG);
-			event.accept(CONDENSED_SNG_SHEARS);
-		}
-			
+	{
 		if (event.getTab() == CreativeModeTabs.INGREDIENTS)
 		{
         	event.accept(RAW_SNG);
@@ -178,15 +135,15 @@ public class ModItems
 		}
 		if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES)
 		{
+			event.accept(SNG_SHOVEL);
 			event.accept(SNG_PICKAXE);
 			event.accept(SNG_AXE);
-			event.accept(SNG_SHOVEL);
 			event.accept(SNG_HOE);
 			event.accept(FLINT_AND_SNG);
 			event.accept(SNG_SHEARS);
+			event.accept(CONDENSED_SNG_SHOVEL);
 			event.accept(CONDENSED_SNG_PICKAXE);
 			event.accept(CONDENSED_SNG_AXE);
-			event.accept(CONDENSED_SNG_SHOVEL);
 			event.accept(CONDENSED_SNG_HOE);
 			event.accept(FLINT_AND_CONDENSED_SNG);
 			event.accept(CONDENSED_SNG_SHEARS);
