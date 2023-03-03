@@ -14,7 +14,7 @@ public enum ModArmorMaterials implements ArmorMaterial
 	{
 		return Ingredient.of(ModItems.SNG_INGOT.get());
 	}),
-	CONDENSED_SNG("condensed_sng", 100, new int[]{10, 16, 20, 10}, 20, SoundEvents.ARMOR_EQUIP_IRON, 10.0f, 0.6f, () ->
+	CONDENSED_SNG("condensed_sng", 100, new int[]{10, 16, 20, 10}, 22, SoundEvents.ARMOR_EQUIP_IRON, 10.0f, 0.6f, () ->
 	{
 		return Ingredient.of(ModItems.CONDENSED_SNG_INGOT.get());
 	});
@@ -42,50 +42,50 @@ public enum ModArmorMaterials implements ArmorMaterial
 	}
 	
 	@Override
-	public int getDurabilityForSlot(EquipmentSlot equipmentSlot)
+	public int getDurabilityForSlot(EquipmentSlot slot)
 	{
-		return HEALTH_PER_SLOT[equipmentSlot.getIndex()] * this.durabilityMultiplier;
+		return HEALTH_PER_SLOT[slot.getIndex()] * durabilityMultiplier;
 	}
 	
 	@Override
-	public int getDefenseForSlot(EquipmentSlot equipmentSlot)
+	public int getDefenseForSlot(EquipmentSlot slot)
 	{
-		return this.slotProtections[equipmentSlot.getIndex()];
+		return slotProtections[slot.getIndex()];
 	}
 	
 	@Override
 	public int getEnchantmentValue()
 	{
-		return this.enchantmentValue;
+		return enchantmentValue;
 	}
 	
 	@Override
 	public SoundEvent getEquipSound()
 	{
-		return this.sound;
+		return sound;
 	}
 	
 	@Override
 	public Ingredient getRepairIngredient()
 	{
-		return this.repairIngredient.get();
+		return repairIngredient.get();
 	}
 	
 	@Override
 	public String getName()
 	{
-		return this.name;
+		return name;
 	}
 	
 	@Override
 	public float getToughness()
 	{
-		return this.toughness;
+		return toughness;
 	}
 	
 	@Override
 	public float getKnockbackResistance()
 	{
-		return this.knockbackResistance;
+		return knockbackResistance;
 	}
 }
