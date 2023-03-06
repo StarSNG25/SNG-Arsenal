@@ -6,8 +6,8 @@ issueTrackerURL="https://github.com/StarSNG25/SNG-Arsenal" #optional
 modId="sng_arsenal" #mandatory
 version="${file.jarVersion}" #mandatory
 displayName="SNG Arsenal" #mandatory
-updateJSONURL="https://raw.githubusercontent.com/StarSNG25/SNG-Arsenal/1.16.5-forge/update.json" #optional
-displayURL="https://starsng25.github.io/SNG-Arsenal/" #optional
+updateJSONURL="https://raw.githubusercontent.com/StarSNG25/SNG-Arsenal/1.19.3-forge/update.json" #optional
+displayURL="https://sngarsenal.starsng.com/" #optional
 logoFile="mod_icon.png" #optional
 #credits="Made by Star_SNG" #optional
 authors="Star_SNG" #optional
@@ -20,7 +20,7 @@ authors="Star_SNG" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 description='''
-Star_SNG's first Minecraft mod made for version 1.16.5 using Forge, updated to 1.19.3, which adds SNG Arsenal into Minecraft.
+Star_SNG's first Minecraft mod, which adds SNG Arsenal into Minecraft.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.sng_arsenal]] #optional
