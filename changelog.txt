@@ -1,5 +1,8 @@
 Changelog
 =========
+1.19.3-2.0.0.1-forge (2023/03/06)
+> Fixed (Condensed) Flint and SNG cannot prime/ignite TNT
+
 1.19.3-2.0.0.0-forge (2023/03/06)
 > Updated to Minecraft 1.19.3 (Forge 1.19.3-44.1.21)
 + Added SNG Arsenal creative tab (items are also still in their respective vanilla creative tabs)

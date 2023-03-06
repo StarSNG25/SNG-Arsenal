@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.19.3-2.0.0.0-forge'
+version = '1.19.3-2.0.0.1-forge'
 group = 'com.starsng.sng_arsenal' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'sng_arsenal'
 
@@ -148,7 +148,7 @@ jar {
         attributes([
                 "Specification-Title"     : "SNG Arsenal",
                 "Specification-Vendor"    : "Star_SNG",
-                "Specification-Version"   : "1.19.3-2.0.0.0-forge", // We are version 1 of ourselves
+                "Specification-Version"   : "1.19.3-2.0.0.1-forge", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "Star_SNG",
