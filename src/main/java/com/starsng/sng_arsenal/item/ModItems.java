@@ -70,11 +70,11 @@ public class ModItems
 			new HoeItem(ModTiers.CONDENSED_SNG, -12, 0.0f, condensedSngItemProperties));
 	
 	public static final RegistryObject<FlintAndSteelItem> FLINT_AND_SNG = RegistryHandler.ITEMS.register("flint_and_sng", () ->
-			new FlintAndSteelItem(durabilityItemProperties));
+			new ModFlintAndSteelItem(durabilityItemProperties));
 	public static final RegistryObject<ShearsItem> SNG_SHEARS = RegistryHandler.ITEMS.register("sng_shears", () ->
 			new ShearsItem(durabilityItemProperties.durability(952)));
 	public static final RegistryObject<FlintAndSteelItem> FLINT_AND_CONDENSED_SNG = RegistryHandler.ITEMS.register("flint_and_condensed_sng", () ->
-			new FlintAndSteelItem(durabilityItemProperties.durability(512).fireResistant()));
+			new ModFlintAndSteelItem(durabilityItemProperties.durability(512).fireResistant()));
 	public static final RegistryObject<ShearsItem> CONDENSED_SNG_SHEARS = RegistryHandler.ITEMS.register("condensed_sng_shears", () ->
 			new ShearsItem(durabilityItemProperties.durability(1904)));
 	
