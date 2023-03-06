@@ -57,10 +57,6 @@ public class ModItems
 			new ShovelItem(ModTiers.SNG, 1.5f, -2.6f, sngItemProperties));
 	public static final RegistryObject<HoeItem> SNG_HOE = RegistryHandler.ITEMS.register("sng_hoe", () ->
 			new HoeItem(ModTiers.SNG, -6, 0.0f, sngItemProperties));
-	public static final RegistryObject<FlintAndSteelItem> FLINT_AND_SNG = RegistryHandler.ITEMS.register("flint_and_sng", () ->
-			new FlintAndSteelItem(durabilityItemProperties));
-	public static final RegistryObject<ShearsItem> SNG_SHEARS = RegistryHandler.ITEMS.register("sng_shears", () ->
-			new ShearsItem(durabilityItemProperties.durability(952)));
 	
 	public static final RegistryObject<SwordItem> CONDENSED_SNG_SWORD = RegistryHandler.ITEMS.register("condensed_sng_sword", () ->
 			new SwordItem(ModTiers.CONDENSED_SNG, 7, -2.0f, condensedSngItemProperties));
@@ -72,8 +68,13 @@ public class ModItems
 			new ShovelItem(ModTiers.CONDENSED_SNG, 4, -2.6f, condensedSngItemProperties));
 	public static final RegistryObject<HoeItem> CONDENSED_SNG_HOE = RegistryHandler.ITEMS.register("condensed_sng_hoe", () ->
 			new HoeItem(ModTiers.CONDENSED_SNG, -12, 0.0f, condensedSngItemProperties));
+	
+	public static final RegistryObject<FlintAndSteelItem> FLINT_AND_SNG = RegistryHandler.ITEMS.register("flint_and_sng", () ->
+			new FlintAndSteelItem(durabilityItemProperties));
+	public static final RegistryObject<ShearsItem> SNG_SHEARS = RegistryHandler.ITEMS.register("sng_shears", () ->
+			new ShearsItem(durabilityItemProperties.durability(952)));
 	public static final RegistryObject<FlintAndSteelItem> FLINT_AND_CONDENSED_SNG = RegistryHandler.ITEMS.register("flint_and_condensed_sng", () ->
-			new FlintAndSteelItem(durabilityItemProperties.durability(512)));
+			new FlintAndSteelItem(durabilityItemProperties.durability(512).fireResistant()));
 	public static final RegistryObject<ShearsItem> CONDENSED_SNG_SHEARS = RegistryHandler.ITEMS.register("condensed_sng_shears", () ->
 			new ShearsItem(durabilityItemProperties.durability(1904)));
 	
