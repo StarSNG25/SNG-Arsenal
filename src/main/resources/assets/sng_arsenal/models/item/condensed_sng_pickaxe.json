@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "sng_arsenal:item/condensed_sng_pickaxe"
+  }
+}
