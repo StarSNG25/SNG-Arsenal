@@ -1,9 +1,10 @@
 {
-  "homepage": "https://github.com/StarSNG25/SNG-Arsenal/releases/tag/1.19.3-2.0.0.1-forge",
+  "homepage": "https://www.curseforge.com/minecraft/mc-mods/sng-arsenal",
   "1.19.4": {
-    "1.19.4-2.0.0.1-forge": "> Updated to Minecraft 1.19.4 (Forge 1.19.4-45.X.XX)"
+    "1.19.4-2.0.0.2-forge": "> Updated to Minecraft 1.19.4 (Forge 1.19.4-45.X.XX)"
   },
   "1.19.3": {
+    "1.19.3-2.0.0.2-forge": "> Updated Forge to 44.1.23\n> Fixed (Condensed) Flint and SNG not losing durability when used on TNT",
     "1.19.3-2.0.0.1-forge": "> Fixed (Condensed) Flint and SNG cannot prime/ignite TNT",
     "1.19.3-2.0.0.0-forge": "> Updated to Minecraft 1.19.3\n+ Added SNG Arsenal creative tab (items are also still in their respective vanilla creative tabs)\n+ Added Deepslate SNG Ore\n+ Added Raw SNG\n+ Added Raw SNG Block (can be smelted/blasted directly into SNG Block but takes as long as smelting/blasting 9 Raw SNGs normally)\n+ Added Flint and SNG (quadruple the durability of Flint and Steel, crafted like Flint and Steel but replace Iron Ingot with SNG Ingot)\n+ Added SNG Shears (double the durability of Shears, crafted like Shears but with SNG Ingot)\n+ Added Condensed SNG things (fire resistant, same enchantment value as Gold)\n  + Condensed SNG Ingot is crafted using 8 SNG Ingots in an O-shape\n  + Condensed SNG Block is crafted by using either 9 Condensed SNG Ingots or 8 SNG Blocks in an O-shape\n  + Condensed SNG Block is immune to Wither\n  + Added Flint and Condensed SNG (double the durability of Flint and SNG)\n  + Added Condensed SNG Shears (double the durability of SNG Shears)\n> Mining SNG Ore now drops Raw SNG instead of itself\n> Changed SNG Block's explosion resistance from 15.0f to 20.0f (TNT proof)\n> Changed XP gained from smelting/blasting (Deepslate) SNG Ore from 1.0 to 1.2\n> Changed SNG Ore texture to match ore texture update in Minecraft 1.17\n> Changed SNG Ore placement to be the same as Diamond Ore due to ore placement/distribution update in Minecraft 1.18\n! (Condensed) Flint and SNG cannot prime/ignite TNT"
   },
@@ -17,11 +18,11 @@
     "1.16.5-0.0.1.0-forge": "First Build.\n+ Added SNG Ingot\n+ Added SNG Ore\n+ Added SNG Block"
   },
   "promos": {
-    "1.19.4-latest"     : "1.19.4-2.0.0.1-forge",
-    "1.19.4-recommended": "1.19.4-2.0.0.1-forge",
+    "1.19.4-latest"     : "1.19.4-2.0.0.2-forge",
+    "1.19.4-recommended": "1.19.4-2.0.0.2-forge",
     
-    "1.19.3-latest"     : "1.19.3-2.0.0.1-forge",
-    "1.19.3-recommended": "1.19.3-2.0.0.1-forge",
+    "1.19.3-latest"     : "1.19.3-2.0.0.2-forge",
+    "1.19.3-recommended": "1.19.3-2.0.0.2-forge",
     
     "1.16.5-latest"     : "1.16.5-1.0.0.1-forge",
     "1.16.5-recommended": "1.16.5-1.0.0.1-forge"
