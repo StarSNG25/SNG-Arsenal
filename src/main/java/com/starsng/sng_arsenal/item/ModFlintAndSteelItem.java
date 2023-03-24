@@ -57,9 +57,9 @@ public class ModFlintAndSteelItem extends FlintAndSteelItem
 				if (player instanceof ServerPlayer)
 				{
 					CriteriaTriggers.PLACED_BLOCK.trigger((ServerPlayer) player, blockPos1, itemStack);
-					itemStack.hurtAndBreak(1, player, (p_41300_) ->
+					itemStack.hurtAndBreak(1, player, (livingEntity) ->
 					{
-						p_41300_.broadcastBreakEvent(context.getHand());
+						livingEntity.broadcastBreakEvent(context.getHand());
 					});
 				}
 			}
@@ -73,9 +73,9 @@ public class ModFlintAndSteelItem extends FlintAndSteelItem
 			level.gameEvent(player, GameEvent.BLOCK_CHANGE, blockPos);
 			
 			if (player != null)
-				context.getItemInHand().hurtAndBreak(1, player, (onBroken) ->
+				context.getItemInHand().hurtAndBreak(1, player, (livingEntity) ->
 				{
-					onBroken.broadcastBreakEvent(context.getHand());
+					livingEntity.broadcastBreakEvent(context.getHand());
 				});
 		}
 		
