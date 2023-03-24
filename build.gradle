@@ -4,7 +4,7 @@ plugins {
     id 'net.minecraftforge.gradle' version '5.1.+'
 }
 
-version = '1.19.3-2.0.0.1-forge'
+version = '1.19.3-2.0.0.2-forge'
 group = 'com.starsng.sng_arsenal' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'sng_arsenal'
 
@@ -129,7 +129,7 @@ dependencies {
     // Specify the version of Minecraft to use. If this is any group other than 'net.minecraft', it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.19.3-44.1.21'
+    minecraft 'net.minecraftforge:forge:1.19.3-44.1.23'
 
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // implementation fg.deobf("com.tterrag.registrate:Registrate:MC${mc_version}-${registrate_version}") // Adds registrate as a dependency
@@ -148,7 +148,7 @@ jar {
         attributes([
                 "Specification-Title"     : "SNG Arsenal",
                 "Specification-Vendor"    : "Star_SNG",
-                "Specification-Version"   : "1.19.3-2.0.0.1-forge", // We are version 1 of ourselves
+                "Specification-Version"   : "1.19.3-2.0.0.2-forge", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "Star_SNG",

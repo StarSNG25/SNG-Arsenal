@@ -1,5 +1,9 @@
 Changelog
 =========
+1.19.3-2.0.0.2-forge (2023/03/24)
+> Updated Forge to 44.1.23
+> Fixed (Condensed) Flint and SNG not losing durability when used on TNT
+
 1.19.3-2.0.0.1-forge (2023/03/06)
 > Fixed (Condensed) Flint and SNG cannot prime/ignite TNT
 
