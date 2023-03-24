@@ -1,4 +1,4 @@
-package com.starsng.sng_arsenal.items;
+package com.starsng.sng_arsenal.item;
 
 import java.util.function.Supplier;
 import net.minecraft.item.IItemTier;

@@ -1,7 +1,7 @@
-package com.starsng.sng_arsenal.armor;
+package com.starsng.sng_arsenal.item.armor;
 
 import java.util.function.Supplier;
-import com.starsng.sng_arsenal.items.ModItems;
+import com.starsng.sng_arsenal.item.ModItems;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
 import net.minecraft.item.crafting.Ingredient;
