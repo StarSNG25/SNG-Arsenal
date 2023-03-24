@@ -41,6 +41,12 @@ public class ModFlintAndSteelItem extends FlintAndSteelItem
 		{
 			blockState.getBlock().onCaughtFire(blockState, level, blockPos, null, player);
 			level.setBlock(blockPos, Blocks.AIR.defaultBlockState(), 11);
+			
+			if (player != null)
+				context.getItemInHand().hurtAndBreak(1, player, (livingEntity) ->
+				{
+					livingEntity.broadcastBreakEvent(context.getHand());
+				});
 		}
 		else if (!CampfireBlock.canLight(blockState) && !CandleBlock.canLight(blockState) && !CandleCakeBlock.canLight(blockState))
 		{
