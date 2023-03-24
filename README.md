@@ -19,4 +19,4 @@ More details can be found in [changelog.txt](https://github.com/StarSNG25/SNG-Ar
 A version for [Fabric](https://fabricmc.net/) might be available in the future when time allows for it.
 
 ## Older Versions
-1.16.5: [GitHub](https://github.com/StarSNG25/SNG-Arsenal/tree/1.16.5-forge) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal/files/all?filter-game-version=2020709689%3A8203) (No longer supported)
+1.16.5: [GitHub](https://github.com/StarSNG25/SNG-Arsenal/tree/1.16.5-forge) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal/files/all?filter-game-version=2020709689%3A8203)
