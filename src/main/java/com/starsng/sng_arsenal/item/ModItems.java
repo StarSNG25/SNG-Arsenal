@@ -106,9 +106,9 @@ public class ModItems
 	{
 		if (event.getTab() == CreativeModeTabs.INGREDIENTS)
 		{
-        	event.accept(RAW_SNG);
-        	event.accept(SNG_INGOT);
-        	event.accept(CONDENSED_SNG_INGOT);
+			event.accept(RAW_SNG);
+			event.accept(SNG_INGOT);
+			event.accept(CONDENSED_SNG_INGOT);
 		}
 		if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS)
 		{
@@ -149,5 +149,5 @@ public class ModItems
 			event.accept(FLINT_AND_CONDENSED_SNG);
 			event.accept(CONDENSED_SNG_SHEARS);
 		}
-    }
+	}
 }
