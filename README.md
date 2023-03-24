@@ -20,4 +20,5 @@ A version for [Fabric](https://fabricmc.net/) might be available in the future w
 
 ## Other Versions
 1.19.4: [GitHub](https://github.com/StarSNG25/SNG-Arsenal/tree/1.19.4-forge)
+
 1.19.3: [GitHub](https://github.com/StarSNG25/SNG-Arsenal/tree/1.19.3-forge) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal/files/all?filter-game-version=2020709689%3A9550)
