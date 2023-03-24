@@ -8,9 +8,9 @@ import net.minecraft.world.item.ItemStack;
 
 public class ModArmorItem extends ArmorItem
 {
-	public ModArmorItem(ArmorMaterial material, EquipmentSlot slot, Properties properties)
+	public ModArmorItem(ArmorMaterial material, ArmorItem.Type type, Properties properties)
 	{
-		super(material, slot, properties);
+		super(material, type, properties);
 	}
 	
 	@Override

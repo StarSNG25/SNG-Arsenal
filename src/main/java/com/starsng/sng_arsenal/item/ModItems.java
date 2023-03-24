@@ -4,7 +4,6 @@ import com.starsng.sng_arsenal.blocks.ModBlocks;
 import com.starsng.sng_arsenal.item.armor.ModArmorItem;
 import com.starsng.sng_arsenal.item.armor.ModArmorMaterials;
 import com.starsng.sng_arsenal.util.RegistryHandler;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.item.BlockItem;
@@ -80,22 +79,22 @@ public class ModItems
 	
 	//Armor
 	public static final RegistryObject<ArmorItem> SNG_HELMET = RegistryHandler.ITEMS.register("sng_helmet", () ->
-			new ModArmorItem(ModArmorMaterials.SNG, EquipmentSlot.HEAD, sngItemProperties));
+			new ModArmorItem(ModArmorMaterials.SNG, ArmorItem.Type.HELMET, sngItemProperties));
 	public static final RegistryObject<ArmorItem> SNG_CHESTPLATE = RegistryHandler.ITEMS.register("sng_chestplate", () ->
-			new ModArmorItem(ModArmorMaterials.SNG, EquipmentSlot.CHEST, sngItemProperties));
+			new ModArmorItem(ModArmorMaterials.SNG, ArmorItem.Type.CHESTPLATE, sngItemProperties));
 	public static final RegistryObject<ArmorItem> SNG_LEGGINGS = RegistryHandler.ITEMS.register("sng_leggings", () ->
-			new ModArmorItem(ModArmorMaterials.SNG, EquipmentSlot.LEGS, sngItemProperties));
+			new ModArmorItem(ModArmorMaterials.SNG, ArmorItem.Type.LEGGINGS, sngItemProperties));
 	public static final RegistryObject<ArmorItem> SNG_BOOTS = RegistryHandler.ITEMS.register("sng_boots", () ->
-			new ModArmorItem(ModArmorMaterials.SNG, EquipmentSlot.FEET, sngItemProperties));
+			new ModArmorItem(ModArmorMaterials.SNG, ArmorItem.Type.BOOTS, sngItemProperties));
 	
 	public static final RegistryObject<ArmorItem> CONDENSED_SNG_HELMET = RegistryHandler.ITEMS.register("condensed_sng_helmet", () ->
-			new ModArmorItem(ModArmorMaterials.CONDENSED_SNG, EquipmentSlot.HEAD, condensedSngItemProperties));
+			new ModArmorItem(ModArmorMaterials.CONDENSED_SNG, ArmorItem.Type.HELMET, condensedSngItemProperties));
 	public static final RegistryObject<ArmorItem> CONDENSED_SNG_CHESTPLATE = RegistryHandler.ITEMS.register("condensed_sng_chestplate", () ->
-			new ModArmorItem(ModArmorMaterials.CONDENSED_SNG, EquipmentSlot.CHEST, condensedSngItemProperties));
+			new ModArmorItem(ModArmorMaterials.CONDENSED_SNG, ArmorItem.Type.CHESTPLATE, condensedSngItemProperties));
 	public static final RegistryObject<ArmorItem> CONDENSED_SNG_LEGGINGS = RegistryHandler.ITEMS.register("condensed_sng_leggings", () ->
-			new ModArmorItem(ModArmorMaterials.CONDENSED_SNG, EquipmentSlot.LEGS, condensedSngItemProperties));
+			new ModArmorItem(ModArmorMaterials.CONDENSED_SNG, ArmorItem.Type.LEGGINGS, condensedSngItemProperties));
 	public static final RegistryObject<ArmorItem> CONDENSED_SNG_BOOTS = RegistryHandler.ITEMS.register("condensed_sng_boots", () ->
-			new ModArmorItem(ModArmorMaterials.CONDENSED_SNG, EquipmentSlot.FEET, condensedSngItemProperties));
+			new ModArmorItem(ModArmorMaterials.CONDENSED_SNG, ArmorItem.Type.BOOTS, condensedSngItemProperties));
 	
 	public ModItems(IEventBus modEventBus)
 	{
@@ -106,9 +105,9 @@ public class ModItems
 	{
 		if (event.getTab() == CreativeModeTabs.INGREDIENTS)
 		{
-        	event.accept(RAW_SNG);
-        	event.accept(SNG_INGOT);
-        	event.accept(CONDENSED_SNG_INGOT);
+			event.accept(RAW_SNG);
+			event.accept(SNG_INGOT);
+			event.accept(CONDENSED_SNG_INGOT);
 		}
 		if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS)
 		{
@@ -149,5 +148,5 @@ public class ModItems
 			event.accept(FLINT_AND_CONDENSED_SNG);
 			event.accept(CONDENSED_SNG_SHEARS);
 		}
-    }
+	}
 }

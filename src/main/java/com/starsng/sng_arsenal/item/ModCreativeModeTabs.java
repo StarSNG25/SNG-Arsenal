@@ -1,4 +1,4 @@
-	package com.starsng.sng_arsenal.item;
+package com.starsng.sng_arsenal.item;
 
 import com.starsng.sng_arsenal.SngArsenal;
 import net.minecraft.network.chat.Component;
@@ -18,7 +18,7 @@ public class ModCreativeModeTabs
 				builder -> builder
 						.title(Component.literal("SNG Arsenal"))
 						.icon(() -> new ItemStack(ModItems.SNG_INGOT.get()))
-						.displayItems((enabledFlags, populator, hasPermissions) ->
+						.displayItems((enabledFlags, populator) ->
 						{
 							//Ingredients
 							populator.accept(ModItems.RAW_SNG.get());

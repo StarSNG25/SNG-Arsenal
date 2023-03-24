@@ -1,35 +1,52 @@
 package com.starsng.sng_arsenal.item.armor;
 
+import java.util.EnumMap;
 import java.util.function.Supplier;
 import com.starsng.sng_arsenal.item.ModItems;
+import net.minecraft.Util;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
 
 public enum ModArmorMaterials implements ArmorMaterial
 {
-	SNG("sng", 50, new int[]{5, 8, 10, 5}, 20, SoundEvents.ARMOR_EQUIP_IRON, 5.0f, 0.3f, () ->
+	SNG("sng", 50, Util.make(new EnumMap<>(ArmorItem.Type.class), (sng) -> {
+		sng.put(ArmorItem.Type.BOOTS, 5);
+		sng.put(ArmorItem.Type.LEGGINGS, 8);
+		sng.put(ArmorItem.Type.CHESTPLATE, 10);
+		sng.put(ArmorItem.Type.HELMET, 5);
+	}), 20, SoundEvents.ARMOR_EQUIP_IRON, 5.0f, 0.3f, () ->
 	{
 		return Ingredient.of(ModItems.SNG_INGOT.get());
 	}),
-	CONDENSED_SNG("condensed_sng", 100, new int[]{10, 16, 20, 10}, 22, SoundEvents.ARMOR_EQUIP_IRON, 10.0f, 0.6f, () ->
+	CONDENSED_SNG("condensed_sng", 100, Util.make(new EnumMap<>(ArmorItem.Type.class), (condensedSng) -> {
+		condensedSng.put(ArmorItem.Type.BOOTS, 10);
+		condensedSng.put(ArmorItem.Type.LEGGINGS, 16);
+		condensedSng.put(ArmorItem.Type.CHESTPLATE, 20);
+		condensedSng.put(ArmorItem.Type.HELMET, 10);
+	}), 22, SoundEvents.ARMOR_EQUIP_IRON, 10.0f, 0.6f, () ->
 	{
 		return Ingredient.of(ModItems.CONDENSED_SNG_INGOT.get());
 	});
 	
-	private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
+	private static final EnumMap<ArmorItem.Type, Integer> HEALTH_PER_SLOT = Util.make(new EnumMap<>(ArmorItem.Type.class), (armor) -> {
+		armor.put(ArmorItem.Type.BOOTS, 13);
+		armor.put(ArmorItem.Type.LEGGINGS, 15);
+		armor.put(ArmorItem.Type.CHESTPLATE, 16);
+		armor.put(ArmorItem.Type.HELMET, 11);
+	});
 	private final String name;
 	private final int durabilityMultiplier;
-	private final int[] slotProtections;
+	private final EnumMap<ArmorItem.Type, Integer> slotProtections;
 	private final int enchantmentValue;
 	private final SoundEvent sound;
 	private final float toughness;
 	private final float knockbackResistance;
 	private final Supplier<Ingredient> repairIngredient;
 	
-	private ModArmorMaterials(String name, int durabilityMultiplier, int[] slotProtections, int enchantmentValue, SoundEvent sound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient)
+	private ModArmorMaterials(String name, int durabilityMultiplier, EnumMap<ArmorItem.Type, Integer> slotProtections, int enchantmentValue, SoundEvent sound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient)
 	{
 		this.name = name;
 		this.durabilityMultiplier = durabilityMultiplier;
@@ -42,15 +59,15 @@ public enum ModArmorMaterials implements ArmorMaterial
 	}
 	
 	@Override
-	public int getDurabilityForSlot(EquipmentSlot slot)
+	public int m_266425_(ArmorItem.Type type) //Presumably supposed to be getDurabilityForSlot(Type type)
 	{
-		return HEALTH_PER_SLOT[slot.getIndex()] * durabilityMultiplier;
+		return HEALTH_PER_SLOT.get(type) * durabilityMultiplier;
 	}
 	
 	@Override
-	public int getDefenseForSlot(EquipmentSlot slot)
+	public int getDurabilityForSlot(ArmorItem.Type type)
 	{
-		return slotProtections[slot.getIndex()];
+		return slotProtections.get(type);
 	}
 	
 	@Override
