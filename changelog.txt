@@ -1,5 +1,9 @@
 Changelog
 =========
+1.16.5-2.0.0.1-forge (2023/03/25)
+> Fixed no recipe for Condensed SNG Armor
+> Fixed no recipe for crafting Condensed SNG Block using SNG Block
+
 1.16.5-2.0.0.0-forge (2023/03/24)
 > Updated Forge to 36.2.39
 + Added SNG Arsenal creative tab (items are also still in their respective vanilla creative tabs)

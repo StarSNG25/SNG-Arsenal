@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "# #"
+  ],
+  "key": {
+    "#": {
+      "item": "sng_arsenal:condensed_sng_ingot"
+    }
+  },
+  "result": {
+    "item": "sng_arsenal:condensed_sng_boots"
+  }
+}
