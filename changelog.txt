@@ -3,6 +3,9 @@ Changelog
 1.19.4-2.0.0.3-forge (2023/03/25)
 > Updated to Minecraft 1.19.4 (Forge 1.19.4-45.0.24)
 
+1.19.3-2.0.0.3-forge (2023/03/25)
+> Fixed no recipe for Condensed SNG Armor
+
 1.19.3-2.0.0.2-forge (2023/03/24)
 > Updated Forge to 44.1.23
 > Fixed (Condensed) Flint and SNG not losing durability when used on TNT
