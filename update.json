@@ -1,7 +1,7 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/sng-arsenal",
   "1.19.4": {
-    "1.19.4-2.0.0.3-forge": "> Updated to Minecraft 1.19.4 (Forge 1.19.4-45.X.XX)"
+    "1.19.4-2.0.0.3-forge": "> Updated to Minecraft 1.19.4 (Forge 1.19.4-45.0.24)"
   },
   "1.19.3": {
     "1.19.3-2.0.0.3-forge": "> Fixed no recipe for Condensed SNG Armor",
