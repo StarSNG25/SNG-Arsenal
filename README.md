@@ -11,7 +11,6 @@ This is my first Minecraft mod made using [Forge](https://files.minecraftforge.n
 - Crafting recipes are similar to vanilla Minecraft items, plus:
 	- Condensed SNG Ingot is crafted using 8 SNG Ingots in an O-shape.
 	- Condensed SNG Block is crafted by using either 9 Condensed SNG Ingots or 8 SNG Blocks in an O-shape.
-	- Raw SNG Block can be smelted/blasted directly into SNG Block but takes as long as smelting/blasting 9 Raw SNGs normally.
 
 More details can be found in [changelog.txt](https://github.com/StarSNG25/SNG-Arsenal/blob/1.16.5-forge/changelog.txt).
 
