@@ -2,6 +2,8 @@
 
 This is my first Minecraft mod made using [Forge](https://files.minecraftforge.net/) API. My intention for making this mod is to get myself into Minecraft modding and learn Java among other things. This mod adds SNG Arsenal into [Minecraft](https://www.minecraft.net/), including new tools, armor, and more. The IDE I use to make this mod is [Eclipse IDE](https://www.eclipse.org/downloads/).
 
+[GitHub](https://github.com/StarSNG25/SNG-Arsenal) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal)
+
 ## Mod Details
 - SNG Ores spawn similarly to Diamond Ore (y = 16 and below for 1.16.5), with maximum of 5 ores per vein.
 - SNG Block is TNT proof, while Condensed SNG Block is wither proof.
