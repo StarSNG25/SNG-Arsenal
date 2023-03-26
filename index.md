@@ -3,6 +3,7 @@
 This is my first Minecraft mod made using [Forge](https://files.minecraftforge.net/) API. My intention for making this mod is to get myself into Minecraft modding and learn Java among other things. This mod adds SNG Arsenal into [Minecraft](https://www.minecraft.net/), including new tools, armor, and more. The IDE I use to make this mod is [Eclipse IDE](https://www.eclipse.org/downloads/).
 
 [GitHub](https://github.com/StarSNG25/SNG-Arsenal)
+
 [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal)
 
 ## Mod Details
@@ -20,6 +21,7 @@ More details can be found in [changelog.txt](https://github.com/StarSNG25/SNG-Ar
 A version for [Fabric](https://fabricmc.net/) might be available in the future when time allows for it.
 
 ## Versions
+
 1.19.4: [GitHub](https://github.com/StarSNG25/SNG-Arsenal/tree/1.19.4-forge) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal/files/all?filter-game-version=2020709689%3A9776)
 
 1.19.3: [GitHub](https://github.com/StarSNG25/SNG-Arsenal/tree/1.19.3-forge) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal/files/all?filter-game-version=2020709689%3A9550)
