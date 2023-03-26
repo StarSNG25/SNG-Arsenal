@@ -1,7 +1,6 @@
 title: SNG Arsenal
 logo: /assets/img/mod_icon.png
-description: Star_SNG's first Minecraft mod, which adds SNG Arsenal into Minecraft.>
-[GitHub](https://github.com/StarSNG25/SNG-Arsenal) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal)
+description: Star_SNG's first Minecraft mod, which adds SNG Arsenal into Minecraft.>[GitHub](https://github.com/StarSNG25/SNG-Arsenal) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal)
 show_downloads: false
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
