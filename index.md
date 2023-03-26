@@ -2,10 +2,6 @@
 
 This is my first Minecraft mod made using [Forge](https://files.minecraftforge.net/) API. My intention for making this mod is to get myself into Minecraft modding and learn Java among other things. This mod adds SNG Arsenal into [Minecraft](https://www.minecraft.net/), including new tools, armor, and more. The IDE I use to make this mod is [Eclipse IDE](https://www.eclipse.org/downloads/).
 
-[GitHub](https://github.com/StarSNG25/SNG-Arsenal)
-
-[CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal)
-
 ## Mod Details
 - SNG Ores spawn similarly to Diamond Ore (y = 16 and below for 1.16.5), with maximum of 5 ores per vein.
 - SNG Block is TNT proof, while Condensed SNG Block is wither proof.
@@ -17,9 +13,6 @@ This is my first Minecraft mod made using [Forge](https://files.minecraftforge.n
 
 More details can be found in [changelog.txt](https://github.com/StarSNG25/SNG-Arsenal/blob/1.19.4-forge/changelog.txt).
 
-## Fabric
-A version for [Fabric](https://fabricmc.net/) might be available in the future when time allows for it.
-
 ## Versions
 
 1.19.4: [GitHub](https://github.com/StarSNG25/SNG-Arsenal/tree/1.19.4-forge) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal/files/all?filter-game-version=2020709689%3A9776)
@@ -27,6 +20,9 @@ A version for [Fabric](https://fabricmc.net/) might be available in the future w
 1.19.3: [GitHub](https://github.com/StarSNG25/SNG-Arsenal/tree/1.19.3-forge) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal/files/all?filter-game-version=2020709689%3A9550)
 
 1.16.5: [GitHub](https://github.com/StarSNG25/SNG-Arsenal/tree/1.16.5-forge) | [CurseForge](https://www.curseforge.com/minecraft/mc-mods/sng-arsenal/files/all?filter-game-version=2020709689%3A8203)
+
+## Fabric
+A version for [Fabric](https://fabricmc.net/) might be available in the future when time allows for it.
 
 ## YouTube
 
