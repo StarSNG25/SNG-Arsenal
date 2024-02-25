@@ -1,5 +1,6 @@
 package com.starsng.sng_arsenal.item.armor;
 
+import com.starsng.sng_arsenal.SngArsenal;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorItem;
@@ -16,14 +17,6 @@ public class ModArmorItem extends ArmorItem
 	@Override
 	public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type)
 	{
-		String dir = "sng_arsenal:textures/models/armor/" + material.getName();
-		
-		switch (slot)
-		{
-			case LEGS:
-				return dir + "_layer_2.png";
-			default:
-				return dir + "_layer_1.png";
-		}
+		return SngArsenal.MODID + ":textures/models/armor/" + material.getName() + (slot == EquipmentSlot.LEGS ? "_layer_2.png" : "_layer_1.png");
 	}
 }

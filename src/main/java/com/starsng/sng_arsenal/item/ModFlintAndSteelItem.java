@@ -20,7 +20,6 @@ import net.minecraft.world.level.block.TntBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.gameevent.GameEvent;
-import net.minecraft.world.level.material.Material;
 
 public class ModFlintAndSteelItem extends FlintAndSteelItem
 {
@@ -37,7 +36,8 @@ public class ModFlintAndSteelItem extends FlintAndSteelItem
 		BlockPos blockPos = context.getClickedPos();
 		BlockState blockState = level.getBlockState(blockPos);
 		
-		if (blockState.getBlock() instanceof TntBlock || blockState.getMaterial() == Material.EXPLOSIVE) //To prime/ignite TNT
+		// || blockState.getMaterial() == Material.EXPLOSIVE //From 1.19.4, Material class missing in newer version, MapColor doesn't have EXPLOSIVE
+		if (blockState.getBlock() instanceof TntBlock) //To prime/ignite TNT
 		{
 			blockState.getBlock().onCaughtFire(blockState, level, blockPos, null, player);
 			level.setBlock(blockPos, Blocks.AIR.defaultBlockState(), 11);

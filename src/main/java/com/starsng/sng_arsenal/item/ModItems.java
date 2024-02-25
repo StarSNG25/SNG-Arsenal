@@ -15,7 +15,7 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ShearsItem;
 import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.SwordItem;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -101,26 +101,26 @@ public class ModItems
 		modEventBus.addListener(this::addCreative);
 	}
 	
-	private void addCreative(CreativeModeTabEvent.BuildContents event)
+	private void addCreative(BuildCreativeModeTabContentsEvent event)
 	{
-		if (event.getTab() == CreativeModeTabs.INGREDIENTS)
+		if (event.getTabKey() == CreativeModeTabs.INGREDIENTS)
 		{
 			event.accept(RAW_SNG);
 			event.accept(SNG_INGOT);
 			event.accept(CONDENSED_SNG_INGOT);
 		}
-		if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS)
+		if (event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS)
 		{
 			event.accept(SNG_ORE_ITEM);
 			event.accept(DEEPSLATE_SNG_ORE_ITEM);
 		}
-		if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS)
+		if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
 		{
 			event.accept(RAW_SNG_BLOCK_ITEM);
 			event.accept(SNG_BLOCK_ITEM);
 			event.accept(CONDENSED_SNG_BLOCK_ITEM);
 		}
-		if (event.getTab() == CreativeModeTabs.COMBAT)
+		if (event.getTabKey() == CreativeModeTabs.COMBAT)
 		{
 			event.accept(SNG_SWORD);
 			event.accept(SNG_HELMET);
@@ -133,7 +133,7 @@ public class ModItems
 			event.accept(CONDENSED_SNG_LEGGINGS);
 			event.accept(CONDENSED_SNG_BOOTS);
 		}
-		if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES)
+		if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES)
 		{
 			event.accept(SNG_SHOVEL);
 			event.accept(SNG_PICKAXE);

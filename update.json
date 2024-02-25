@@ -1,5 +1,8 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/sng-arsenal",
+  "1.20.4": {
+    "1.20.4-3.0.0.0-forge": "> Updated to Minecraft 1.20.4 (Forge 1.20.4-49.0.30)\n> Changed MapColor of Raw SNG Block from Metal to Black"
+  },
   "1.19.4": {
     "1.19.4-2.0.0.3-forge": "> Updated to Minecraft 1.19.4 (Forge 1.19.4-45.0.24)"
   },
@@ -21,6 +24,9 @@
     "1.16.5-0.0.1.0-forge": "First Build.\n+ Added SNG Ingot\n+ Added SNG Ore\n+ Added SNG Block"
   },
   "promos": {
+    "1.20.4-latest"     : "1.20.4-3.0.0.0-forge",
+    "1.20.4-recommended": "1.20.4-3.0.0.0-forge",
+    
     "1.19.4-latest"     : "1.19.4-2.0.0.3-forge",
     "1.19.4-recommended": "1.19.4-2.0.0.3-forge",
     

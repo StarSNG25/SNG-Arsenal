@@ -59,13 +59,13 @@ public enum ModArmorMaterials implements ArmorMaterial
 	}
 	
 	@Override
-	public int m_266425_(ArmorItem.Type type) //Presumably supposed to be getDurabilityForSlot(Type type)
+	public int getDurabilityForType(ArmorItem.Type type)
 	{
 		return HEALTH_PER_SLOT.get(type) * durabilityMultiplier;
 	}
 	
 	@Override
-	public int getDurabilityForSlot(ArmorItem.Type type)
+	public int getDefenseForType(ArmorItem.Type type)
 	{
 		return slotProtections.get(type);
 	}
