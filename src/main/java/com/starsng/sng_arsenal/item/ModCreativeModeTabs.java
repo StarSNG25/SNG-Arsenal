@@ -1,17 +1,14 @@
 package com.starsng.sng_arsenal.item;
 
-import com.starsng.sng_arsenal.SngArsenal;
 import com.starsng.sng_arsenal.util.RegistryHandler;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
-@EventBusSubscriber(modid = SngArsenal.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class ModCreativeModeTabs
 {
-	public static final RegistryObject<CreativeModeTab> SNG_ARSENAL_TAB = RegistryHandler.CREATIVE_MODE_TABS.register("sng_arsenal_tab", () ->
+	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> SNG_ARSENAL_TAB = RegistryHandler.CREATIVE_MODE_TABS.register("sng_arsenal_tab", () ->
 			CreativeModeTab.builder()
 					.title(Component.literal("SNG Arsenal"))
 					.icon(() -> new ItemStack(ModItems.SNG_INGOT.get()))
