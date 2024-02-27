@@ -31,7 +31,8 @@ public enum ModArmorMaterials implements ArmorMaterial
 		return Ingredient.of(ModItems.CONDENSED_SNG_INGOT.get());
 	});
 	
-	private static final EnumMap<ArmorItem.Type, Integer> HEALTH_PER_SLOT = Util.make(new EnumMap<>(ArmorItem.Type.class), (armor) -> {
+	private static final EnumMap<ArmorItem.Type, Integer> HEALTH_FUNCTION_FOR_TYPE = Util.make(new EnumMap<>(ArmorItem.Type.class), (armor) ->
+	{
 		armor.put(ArmorItem.Type.BOOTS, 13);
 		armor.put(ArmorItem.Type.LEGGINGS, 15);
 		armor.put(ArmorItem.Type.CHESTPLATE, 16);
@@ -39,18 +40,18 @@ public enum ModArmorMaterials implements ArmorMaterial
 	});
 	private final String name;
 	private final int durabilityMultiplier;
-	private final EnumMap<ArmorItem.Type, Integer> slotProtections;
+	private final EnumMap<ArmorItem.Type, Integer> protectionFunctionForType;
 	private final int enchantmentValue;
 	private final SoundEvent sound;
 	private final float toughness;
 	private final float knockbackResistance;
 	private final Supplier<Ingredient> repairIngredient;
 	
-	private ModArmorMaterials(String name, int durabilityMultiplier, EnumMap<ArmorItem.Type, Integer> slotProtections, int enchantmentValue, SoundEvent sound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient)
+	private ModArmorMaterials(String name, int durabilityMultiplier, EnumMap<ArmorItem.Type, Integer> protectionFunctionForType, int enchantmentValue, SoundEvent sound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient)
 	{
 		this.name = name;
 		this.durabilityMultiplier = durabilityMultiplier;
-		this.slotProtections = slotProtections;
+		this.protectionFunctionForType = protectionFunctionForType;
 		this.enchantmentValue = enchantmentValue;
 		this.sound = sound;
 		this.toughness = toughness;
@@ -61,13 +62,13 @@ public enum ModArmorMaterials implements ArmorMaterial
 	@Override
 	public int getDurabilityForType(ArmorItem.Type type)
 	{
-		return HEALTH_PER_SLOT.get(type) * durabilityMultiplier;
+		return HEALTH_FUNCTION_FOR_TYPE.get(type) * durabilityMultiplier;
 	}
 	
 	@Override
 	public int getDefenseForType(ArmorItem.Type type)
 	{
-		return slotProtections.get(type);
+		return protectionFunctionForType.get(type);
 	}
 	
 	@Override
