@@ -36,8 +36,7 @@ public class ModFlintAndSteelItem extends FlintAndSteelItem
 		BlockPos blockPos = context.getClickedPos();
 		BlockState blockState = level.getBlockState(blockPos);
 		
-		// || blockState.getMaterial() == Material.EXPLOSIVE //From 1.19.4, Material class missing in newer version, MapColor doesn't have EXPLOSIVE
-		if (blockState.getBlock() instanceof TntBlock) //To prime/ignite TNT
+		if (blockState.getBlock() instanceof TntBlock) //To prime/ignite TNT // || blockState.getMaterial() == Material.EXPLOSIVE //From 1.19.4, Material class missing in newer version
 		{
 			blockState.getBlock().onCaughtFire(blockState, level, blockPos, null, player);
 			level.setBlock(blockPos, Blocks.AIR.defaultBlockState(), 11);
@@ -57,10 +56,7 @@ public class ModFlintAndSteelItem extends FlintAndSteelItem
 				if (player instanceof ServerPlayer)
 				{
 					CriteriaTriggers.PLACED_BLOCK.trigger((ServerPlayer) player, blockPos1, itemStack);
-					itemStack.hurtAndBreak(1, player, (livingEntity) ->
-					{
-						livingEntity.broadcastBreakEvent(context.getHand());
-					});
+					itemStack.hurtAndBreak(1, player, livingEntity -> livingEntity.broadcastBreakEvent(context.getHand()));
 				}
 			}
 			else
@@ -73,10 +69,7 @@ public class ModFlintAndSteelItem extends FlintAndSteelItem
 			level.gameEvent(player, GameEvent.BLOCK_CHANGE, blockPos);
 			
 			if (player != null)
-				context.getItemInHand().hurtAndBreak(1, player, (livingEntity) ->
-				{
-					livingEntity.broadcastBreakEvent(context.getHand());
-				});
+				context.getItemInHand().hurtAndBreak(1, player, livingEntity -> livingEntity.broadcastBreakEvent(context.getHand()));
 		}
 		
 		return InteractionResult.sidedSuccess(level.isClientSide());
