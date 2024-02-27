@@ -1,7 +1,7 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/sng-arsenal",
   "1.20.4": {
-    "1.20.4-3.0.0.0-neoforge": "> Recreated in NeoForge 20.4.183 for Minecraft 1.20.4"
+    "1.20.4-3.0.0.0-neoforge": "> Recreated in NeoForge 20.4.183 for Minecraft 1.20.4\n> Updated mod description"
   },
   "promos": {
     "1.20.4-latest"     : "1.20.4-3.0.0.0-neoforge",
