@@ -17,7 +17,10 @@ public class ModBlocks
 	public static final RegistryObject<Block> DEEPSLATE_SNG_ORE = RegistryHandler.BLOCKS.register("deepslate_sng_ore", () ->
 			new DropExperienceBlock(ConstantInt.of(0), BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)));
 	public static final RegistryObject<Block> RAW_SNG_BLOCK = RegistryHandler.BLOCKS.register("raw_sng_block", () ->
-			new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RAW_IRON_BLOCK).mapColor(MapColor.COLOR_BLACK)));
+			new Block(BlockBehaviour.Properties
+					.ofFullCopy(Blocks.RAW_IRON_BLOCK)
+					.mapColor(MapColor.COLOR_BLACK)
+					));
 	public static final RegistryObject<Block> SNG_BLOCK = RegistryHandler.BLOCKS.register("sng_block", () ->
 			new Block(BlockBehaviour.Properties
 					.of() //Material.METAL
