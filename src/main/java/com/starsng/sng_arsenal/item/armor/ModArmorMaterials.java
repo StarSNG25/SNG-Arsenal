@@ -31,7 +31,8 @@ public enum ModArmorMaterials implements ArmorMaterial
 		return Ingredient.of(ModItems.CONDENSED_SNG_INGOT.get());
 	});
 	
-	private static final EnumMap<ArmorItem.Type, Integer> HEALTH_FUNCTION_FOR_TYPE = Util.make(new EnumMap<>(ArmorItem.Type.class), (armor) -> {
+	private static final EnumMap<ArmorItem.Type, Integer> HEALTH_FUNCTION_FOR_TYPE = Util.make(new EnumMap<>(ArmorItem.Type.class), (armor) ->
+	{
 		armor.put(ArmorItem.Type.BOOTS, 13);
 		armor.put(ArmorItem.Type.LEGGINGS, 15);
 		armor.put(ArmorItem.Type.CHESTPLATE, 16);
