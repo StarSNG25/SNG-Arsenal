@@ -35,36 +35,36 @@ public enum ModTiers implements Tier
 	@Override
 	public int getUses()
 	{
-		return this.uses;
+		return uses;
 	}
 	
 	@Override
 	public float getSpeed()
 	{
-		return this.speed;
+		return speed;
 	}
 	
 	@Override
 	public float getAttackDamageBonus()
 	{
-		return this.damage;
+		return damage;
 	}
 	
 	@Override
 	public int getLevel()
 	{
-		return this.level;
+		return level;
 	}
 	
 	@Override
 	public int getEnchantmentValue()
 	{
-		return this.enchantmentValue;
+		return enchantmentValue;
 	}
 	
 	@Override
 	public Ingredient getRepairIngredient()
 	{
-		return this.repairIngredient.get();
+		return repairIngredient.get();
 	}
 }
